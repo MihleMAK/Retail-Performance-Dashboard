@@ -43,8 +43,6 @@ The dashboard includes:
 
 ## 5. Key Challenges & Solutions
 
-Building this dashboard surfaced several real debugging problems, which ended up being some of the most instructive parts of the project:
-
 | Challenge | Resolution |
 |---|---|
 | Top Customers Table showed a single "Null" row instead of 10 named customers. The `Customer Name` field had been mistyped as a Measure instead of a Dimension, so it aggregated every customer into one null value | Converted the field back to a Dimension with a String data type, then rebuilt the view |
