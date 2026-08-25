@@ -1,4 +1,4 @@
-# Retail Performance Dashboard — Project Documentation
+# Retail Performance Dashboard
 
 ![Dashboard overview](Dashboard1.png)
 
